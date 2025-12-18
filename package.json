@@ -1,9 +1,11 @@
 {
   "name": "ldv-dash",
   "private": true,
+  "homepage": "https://Audspods.github.io/LDV/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -14,6 +16,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.10.1",
+    "react-script": "^2.0.5",
     "recharts": "^3.6.0"
   },
   "devDependencies": {
