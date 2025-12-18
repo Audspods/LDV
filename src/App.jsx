@@ -8,7 +8,7 @@ const basename = process.env.NODE_ENV === "production" ? "/LDV" : "/";
 
 export default function App() {
   return (
-    <Router basename={basename}>
+    <Router basename={"/LDV"}>
       <div className="min-h-screen bg-brandBlack text-white">
         {/* Nav */}
         <nav className="flex space-x-4 p-4 bg-brandRed">
